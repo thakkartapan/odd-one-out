@@ -1,0 +1,8 @@
+<div>Score {{index}} Time {{seconds}}</div>
+<div #gameBoxDiv class="game-box-main">
+    <div [hidden]="isStarted"><button (click)="onStartClicked()">Start</button></div>
+    <div [hidden]="!isStarted"><button (click)="onEndClicked()">End</button></div>    
+    <div *ngFor="let box of boxs" (click)="onBoxClick(box)" [style.background-color]="box.color" [style.width]="box.width" [style.height]="box.height" class="game-box" [title]="box.color">
+        
+    </div>
+</div>

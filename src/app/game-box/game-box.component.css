@@ -1,0 +1,10 @@
+.game-box-main {
+    display: block;
+    max-width: 600px;
+    height: 400px;
+}
+
+.game-box {
+   float: left;
+   border: 1px solid gray;
+}

@@ -1,0 +1,7 @@
+.main-center {
+    max-width: 600px;
+    height: 100%;
+    margin: auto;
+    text-align: center;
+    background: gray;    
+}
