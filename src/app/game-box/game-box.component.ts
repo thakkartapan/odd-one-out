@@ -23,10 +23,10 @@ export class GameBoxComponent implements OnInit {
   private maxWidth: number = 600;
   private color: number = 10;
 
-  private seconds: number = 60;
-  private boxs: Array<Box> = [];
-  private index: number = 0;
-  private isStarted: boolean = false;
+  seconds: number = 60;
+  boxs: Array<Box> = [];
+  index: number = 0;
+  isStarted: boolean = false;
   private subscription: Rx.Subscription = null;
 
   constructor() { }
